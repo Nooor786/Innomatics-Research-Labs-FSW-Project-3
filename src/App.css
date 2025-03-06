@@ -1,0 +1,24 @@
+/* Light Mode */
+body {
+  background: white;
+  color: black;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+.dark-mode .navbar {
+  background: #222;
+}
+
+.dark-mode .nav-links a {
+  color: white;
+}
+
+.dark-mode .toggle-btn {
+  background: #ffcc00;
+  color: black;
+}

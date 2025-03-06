@@ -1,0 +1,62 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 50px;
+  color: white;
+  text-align: left;
+  background: url("../assets/background.avif") no-repeat center center/cover;
+}
+
+.content {
+  max-width: 50%;
+}
+
+.content h1 {
+  font-size: 3rem;
+}
+
+.content h2 {
+  font-size: 2rem;
+  color: #ffcc00;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background: #ffcc00;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: white;
+  color: #333;
+}
+
+.profile img {
+  width: 500px;  /* Increased size */
+  height: 500px; /* Increased size */
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Added shadow */
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
